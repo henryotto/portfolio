@@ -54,6 +54,16 @@ mark {
   background-color: #FFFF66;
 }
 
+li {
+  display: block;
+  padding: 1em;
+  font-family: cursive;
+}
+
+li:nth-child(odd) {
+  color: #FFD700;
+}
+
 .navbar {
   background-color: #000000;
   padding: 0.5em;
@@ -75,7 +85,7 @@ mark {
   padding-left: 5em;
   padding-top: 1em;
   padding-right: 10em;
-  padding-bottom: 35em;
+  padding-bottom: 15em;
 }
 
 .container {
