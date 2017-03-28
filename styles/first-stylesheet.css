@@ -75,7 +75,17 @@ mark {
   padding-left: 5em;
   padding-top: 1em;
   padding-right: 10em;
-  padding-bottom: 50.2em;
+  padding-bottom: 35em;
+}
+
+.container {
+    display: flex;
+    width: 1em;
+    align-content: space-between;
+}
+
+.article {
+  display: block;
 }
 
 #git img {
