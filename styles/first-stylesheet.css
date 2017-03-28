@@ -80,8 +80,7 @@ mark {
 
 .container {
     display: flex;
-    width: 1em;
-    align-content: space-between;
+    width: 55em;
 }
 
 .article {
