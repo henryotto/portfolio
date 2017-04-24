@@ -2,12 +2,23 @@ body {
   background-color: #FFFFFF;
 }
 
-h1, h2, section, article, nav {
+h1, h2, section, article, nav, form{
   font-family: sans-serif, serif;
 }
 
 h2 {
   font-size: 18px;
+}
+
+form {
+  width: 500px;
+  padding: 3em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+legend {
+  font-weight: bold;
 }
 
 strong {
