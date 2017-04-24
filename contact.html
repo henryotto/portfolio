@@ -15,20 +15,32 @@
         <a href="contact.html">Contact</a>
       </nav>
     </header>
+    <main>
+      <article class="">
+        <h1>Responsive Web Design (RWD)</h1>
+        <p></p>
+      </article>
+    </main>
     <h1>Contact Form</h1>
-    <h3>Please fill in the form below</h3>
-
+    <h2>Please fill in the form below</h2>
     <form class="form">
       <fieldset>
         <legend>Personal Information</legend>
         <label for="fname">First Name:</label>
-        <input type="text" name="fname" value="">
+        <input type="text" name="fname" value="" required="">
         <br>
         <label for="lname">Last Name:</label>
-        <input type="text" name="lname" value="">
+        <input type="text" name="lname" value="" required="">
         <br>
         <label for="location">Your Location:</label>
         <input type="text" name="location" value="">
+        <br>
+        <label>Male
+        <input type="radio" name="" value="">
+        </label>
+        <label>Female
+        <input type="radio" name="" value="">
+        </label>
         <br>
         <label type="text" name="birth-year" id="birth-year" >Year of Birth</label>
       <select name="birth-year" id="birth-year">
@@ -39,8 +51,27 @@
         <option value="1971-1980">1971-1980</option>
         <option value="1960-1970">1960-1970</option>
       </select>
+      <br>
+      <label for="msg">Comment:</label>
+        <textarea id="msg" name="user_message"></textarea>
       </fieldset>
+      <br>
 
+      <fieldset>
+        <legend>Business Information</legend>
+        <label for="bname">Business Name:</label>
+        <input type="text" name="bname" value="" required="">
+        <br>
+        <label for="name">Number of Employees</label><br>
+        <label>10</label><input type="range" name="lname" value=""><label>100</label>
+        <br>
+        <label for="establishment">Year Established:</label>
+        <input type="text" name="establishment" value="">
+        <br>
+
+      </fieldset>
+      <br>
+      <input type="submit" name="" value="Submit">
     </form>
   </body>
 </html>
