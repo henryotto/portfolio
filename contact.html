@@ -2,15 +2,45 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/first-stylesheet.css">
+    <script src="https://use.fontawesome.com/2be6246a47.js"></script>
     <title>Contacts</title>
   </head>
   <body>
+    <header class="header">
+      <img src="images/header-logo.png" alt="Header Logo" width="150" height="50">
+      <nav class="navbar">
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
     <h1>Contact Form</h1>
     <h3>Please fill in the form below</h3>
 
-    <form>
-      <label for="fname">First Name:</label>
-      <input type="text" name="fname" value="">
+    <form class="form">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" value="">
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" value="">
+        <br>
+        <label for="location">Your Location:</label>
+        <input type="text" name="location" value="">
+        <br>
+        <label type="text" name="birth-year" id="birth-year" >Year of Birth</label>
+      <select name="birth-year" id="birth-year">
+        <option value="">choose</option>
+        <option value="2001-2010">2001-2010</option>
+        <option value="1991-2000">1991-2000</option>
+        <option value="1981-1990">1980-1990</option>
+        <option value="1971-1980">1971-1980</option>
+        <option value="1960-1970">1960-1970</option>
+      </select>
+      </fieldset>
+
     </form>
   </body>
 </html>
