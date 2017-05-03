@@ -26,9 +26,9 @@ a {
   font-size: 1.3em;
 }
 
-div {
+.container div {
 width: 300px;
-border: 4px solid #444444;
+border: 1px solid #9ACD32;
 padding: 1em;
 margin: 1px;
 }
@@ -100,11 +100,8 @@ nav {
 
 .container {
     display: flex;
+    flex-direction: row;
     width: 55em;
-}
-
-.article {
-  display: block;
 }
 
 .transition {
