@@ -2,9 +2,11 @@ body {
   background-color: #FFFFFF;
 }
 
+/*
 h1, h2, section, article, nav, form{
-  font-family: sans-serif, serif;
+  font-family: "Chaparral Pro Light", sans-serif, serif;
 }
+*/
 
 h2 {
   font-size: 18px;
