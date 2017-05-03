@@ -60,38 +60,42 @@ mark {
   background-color: #FFFF66;
 }
 
-li {
+.custom-li {
   display: block;
   padding: 1em;
-  font-family: cursive;
+  font-family: Abel;
 }
 
-li:nth-child(odd) {
-  color: #FFD700;
+.custom-li:nth-child(odd) {
+  color: 	#9ACD32;
 }
 
-.navbar {
-  background-color: #444444;
-  padding: 1.5em;
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+nav {
+  background-color: #9ACD32;
+  padding: 1em;
+  ;
 }
 
 .aside_about {
-  background-color: #444444;
   float: right;
-  padding-left: 5.2em;
-  padding-top: 1em;
-  padding-right: 10em;
-  padding-bottom: 22em;
-  text-align: center;
+  margin-right: 1em;
+  padding: 1px, 10px, 15px, 1px;
+  text-align: left;
 }
 
 .aside_main {
-  background-color: #444444;
   float: right;
-  padding-left: 2em;
-  padding-top: 1em;
-  padding-right: 10em;
-  padding-bottom: 15em;
+  margin-right: 1em;
+  padding-left: 1px, 10px, 15px, 1px;
+  text-align: left;
 }
 
 .container {

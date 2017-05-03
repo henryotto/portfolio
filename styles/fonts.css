@@ -1,3 +1,9 @@
+#main-heading {
+  font-family: "Cedarville Cursive";
+	font-size: 3em;
+  color: #9ACD32;
+}
+
 h1 {
 	font-family: Abel;
 	font-size: 24px;
@@ -32,14 +38,3 @@ p {
 	font-weight: 50;
 	line-height: 20px;
 }
-
-/* // Paragraph fonts for the whole website will be different //
-p {
-	font-family: Abel;
-	font-size: 1em;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-}
-*/
