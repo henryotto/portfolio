@@ -7,13 +7,21 @@ h1 {
 	line-height: 26.4px;
 }
 
-h2 {
+h2, li {
 	font-family: Abel;
 	font-size: 1.5em;
 	font-style: normal;
 	font-variant:small-caps;
 	font-weight: 500;
 	line-height: 15.4px;
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-size: 1.2em;
+  font-style: normal;
+  font-variant: small-caps;
+  line-height: 1em;
 }
 
 p {

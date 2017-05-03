@@ -4,9 +4,10 @@ body {
 
 form {
   width: 500px;
-  padding: 3em;
+  padding: 2em;
   border: 1px solid #CCC;
   border-radius: 1em;
+  font-family: Abel;
 }
 
 legend {
@@ -21,6 +22,8 @@ strong {
 a {
   color: #BA6601;
   text-decoration: none;
+  font-family: Abel;
+  font-size: 1.3em;
 }
 
 div {
@@ -51,7 +54,6 @@ blockquote {
   color: #FFFFFF;
   font-family: Georgia, serif;
   font-size: 16px;
-  transform: rotate(180deg);
 }
 
 mark {
@@ -115,7 +117,6 @@ li:nth-child(odd) {
     background-color: #444444;
     width: 600px;
     height: 45px;
-    -webkit-transform: rotate(180deg);
 }
 
 #git img {
