@@ -20,7 +20,7 @@ strong {
 }
 
 a {
-  color: #BA6601;
+  color: #DAA520;
   text-decoration: none;
   font-family: Abel;
   font-size: 1.3em;
@@ -34,7 +34,7 @@ margin: 1px;
 }
 
 footer {
-  background: #444444;
+  background: #9ACD32;
   color: #FFFFFF;
   padding-bottom: 1em;
   text-align: center;
@@ -42,7 +42,7 @@ footer {
 }
 
 a:hover {
-color: #007FFF;
+color: #9ACD32;
 }
 
 blockquote {
@@ -75,7 +75,7 @@ nav a {
 }
 
 nav a:hover {
-  color: orange;
+  color: #556B2F;
 }
 
 nav {
