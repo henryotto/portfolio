@@ -30,7 +30,7 @@ h3 {
   line-height: 1em;
 }
 
-p {
+p, footer {
 	font-family: "Open Sans";
 	font-size: 0.9em;
 	font-style: normal;
