@@ -1,0 +1,109 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+body {
+	background: #f2f2f2;
+	color: #f7f7f7;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  color: #1f1f14;
+}
+
+p {
+	font-size: 16px;
+	color: #1f1f14;
+}
+
+hr {
+  border-color: #999999;
+}
+
+footer {
+  background-color: #2E2F31;
+  text-align: center;
+  margin-top: 50px;
+  padding: 1em;
+}
+
+.custom-links:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.jumbotron {
+	background-image: url("../images/bg-image.jpg");
+  background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.jumbotron p {
+	color: white;
+	font-size: 26px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: transparent;
+	border-color: white;
+	margin-bottom: 5px;
+
+}
+.btn-primary:hover {
+	color: #27A967;
+	background-color: white;
+	border-color: white;
+}
+
+.navbar-inverse {
+	background: #2E2F31;
+	border: 0;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #f7f7f7;
+	font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background: #0175A8
+}
+
+.dropdown-menu {
+	background: #2E2F31;
+	border-radius: 0;
+	border: 0;
+}
+
+.dropdown-menu li a {
+	padding: 10px;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+	background: #2C463C;
+}
+
+.call-to-action {
+	text-align: center;
+}
+
+.call-to-action p {
+	margin-bottom: 30px;
+	font-family: sans-serif;
+}
+
+.glyphicon-large {
+	font-size: 100px;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
