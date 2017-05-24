@@ -1,27 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles/first-stylesheet.css">
-    <link rel="stylesheet" href="styles/fonts.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abel"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cedarville+Cursive"/>
-    <script src="https://use.fontawesome.com/2be6246a47.js"></script>
-    <!-- <link rel="stylesheet" href="/css/master.css"> -->
-    <title>HENRY-OTTO | PORTFOLIO-SITE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OTTO-HENRY</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   </head>
+
   <body>
-    <header class="header">
-      <h1 id="main-heading">PortFolio</h1>
-      <nav class="navbar">
-          <a href="index.html">HOME</a>
-          <a href="about.html">ABOUT</a>
-          <a href="contact.html">CONTACT</a>
-        </ul>
-      </nav>
-    </header>
-    <aside class="aside_main">
+
+<!-- Navbar and Jumbotron [Top section] -->
+
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <span class="glyphicons glyphicons-theater"></span>
+           <a class="navbar-brand" href="#">PORTFOLIO</a>
+         </div>
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+           <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <div class="jumbotron">
+        <h1>Welcome</h1>
+         <p>It's a pleasure meeting you</p>
+      </div>
+
+<!-- Navbar and Jumbotron [Ends] -->
+
+    <!-- <aside class="">
       <h1><a href="about.html">About this site</a></h1>
       <h2>Current Projects (nth)</h2>
       <ul>
@@ -30,45 +54,61 @@
         <li class="custom-li"><i class="fa fa-html5" aria-hidden="true"></i> Semantic Tags</li>
         <li class="custom-li"><i class="fa fa-television" aria-hidden="true"></i> Tech Articles</li>
       </ul>
-    </aside>
-    <main>
-      <section>
-        <h2>Welcome</h2>
-        <p>This site is basically displaying current projects under the HTML5 100 B Sp 17: HTML5 And CSS3 Foundations.<br>
-        Below are some of the projects that have been completed while some are still in progress. <mark>New projects will be updated to this page in the coming days so check often.</mark><br>
-        </p>
-      </section>
-       <article class="article">
-        <div class="container">
-        <div id="git">
-          <img src="images/git-logo.jpg" alt="Git Logo">
+    </aside> -->
+    <div class="col-md-12">
+      <h2>Hi</h2>
+        <p>This site is a start of a new journey. It brings to live, some of the current projects that I would like to display while studying
+          the Certificate in HTML5, CSS3 and Responsive Designs for Web Development. Below are some of the projects that has been developed so far
+          however because I am still learning new things from this program they will changed over time. <mark>New projects will be updated to this page.</mark><br>
+        </p><br>
+    </div>
+    <div class="container">
+    <section class="call-to-action">
+    <div class="row">
+       <div class="col-md-3 top-buffer">
+          <img src="images/git-logo.jpg" alt="Git Logo" width="100%" height="225px">
           <h2>Testing out Git</h2>
-          <p>First things first, here we had a walk through with Cheri Marie on the basics of Git</p><hr>
-          <a href="https://henryotto.github.io/git_test/." target="_blank">Git Test Repository</a>
-        </div>
-        <div id="duck">
-          <img src="images/duck.png" alt="A Duck">
+          <p>First things first, here we had a work through with Cheri Marie on the basics of Git</p>
+          <a class="custom-links" href="https://henryotto.github.io/git_test/." target="_blank">Git Test Repository</a><hr>
+       </div>
+        <div class="col-md-3 top-buffer">
+          <img src="images/duck.jpg" alt="A Duck" width="75%">
           <h2>Duck Example</h2>
-          <p>Secondly, we had a taste of HTML5 Basic tags</p><hr>
-          <a href="https://henryotto.github.io/duck_example/" target="_blank">Ducks Repository</a>
+          <p>Then, we had a taste of HTML5 Basic tags</p>
+          <a class="custom-links" href="https://henryotto.github.io/duck_example/" target="_blank">Ducks Repository</a><hr>
         </div>
-        <div id="semantic">
+        <div class="col-md-3 top-buffer">
           <img src="images/semantic-layout.jpg" alt="Semantics">
           <h2>Semantic Tags</h2>
-          <p>Then comes our first project as our Homework. Working out HTML5 Semantic tags</p><hr>
-          <a href=" https://henryotto.github.io/semantic_tags/" target="_blank">Semantics</a>
+          <p>Then comes our first project as our Homework. Working out HTML5 Semantic tags</p>
+          <a class="custom-links" href=" https://henryotto.github.io/semantic_tags/" target="_blank">Semantics</a><hr>
         </div>
-        <div id="tech">
-          <img src="images/tech-wear.jpg" alt="Tech">
+        <div class="col-md-3 top-buffer">
+          <img src="images/tech.png" alt="Tech" width="92%">
           <h2>Tech Articles</h2>
-          <p>Then comes this small document "working with Lists in HTML"</p><hr>
-          <a href="https://henryotto.github.io/tech_article/" target="_blank">Tech Articles</a>
+          <p>Then comes this small document "working with Lists in HTML"</p>
+          <a class="custom-links" href="https://henryotto.github.io/tech_article/" target="_blank">Tech Articles</a><hr>
         </div>
+        <div class="col-md-3 top-buffer">
+          <img src="images/alibaba.jpg" alt="Tech" width="100%">
+          <h2>E-commerce Project</h2>
+          <p>We are now working on an e-commerce website using the Trios, HTML5, CSS3 & Javascript"</p>
+          <a class="custom-links" href="https://henryotto.github.io/html200-ecomm-spr17/" target="_blank">E-Commerce Site</a><hr>
         </div>
-      </article>
-    </main>
-    <footer class="footer"><br>
-      <em>copyright my-projects @ 2017</em>
+    </div>
+    </section>
+    </div>
+
+    <footer>
+      <strong>2017 - UWPCE - Programs</strong>
     </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
   </body>
 </html>
