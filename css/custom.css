@@ -44,6 +44,12 @@ blockquote {
   font-size: 2em;
 }
 
+.custom-li {
+  color: 	#2F4F4F;
+  padding: 1em;
+  margin-right: 1em;
+}
+
 .custom-links:hover {
   text-decoration: none;
   font-weight: bold;
@@ -133,4 +139,12 @@ blockquote {
     background-color: #2E2F31;
     width: 600px;
     height: 150px;
+}
+
+.side-bar {
+  float: right;
+}
+
+.side-bar li{
+  display: block;
 }
