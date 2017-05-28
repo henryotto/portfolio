@@ -2,59 +2,63 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles/first-stylesheet.css">
-    <link rel="stylesheet" href="styles/fonts.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abel"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cedarville+Cursive"/>
-    <script src="https://use.fontawesome.com/2be6246a47.js"></script>
-    <title>CONTACT-ME</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   </head>
+
   <body>
-    <header class="header">
-      <h1 id="main-heading">PortFolio</h1>
-      <nav class="navbar">
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="contact.html">CONTACT</a>
-      </nav>
-    </header>
-    <main>
-      <article class="">
-        <h2>Responsive Web Design (RWD)</h2>
-        <p>Responsive web design is now an interesting topic for most web developers to understand.
-          It has been going through tough trials over the years until today that it has come to be a prerequisite in web development.
-          Responsive web design or RWD for short is basically the baseline of screen sizes.</p>
-        <p>RWD solves different problems to how end users view content on the web. More companies and industries design and develop large desktops to small
-          phones and because of RWD, we cannot see the difference when viewing information on such devices because of its capability to scale down sites to
-          fit different screen sizes.</p>
-        <p>There is a wide variety of information on responsive web design available all over the Internet, and much of that information is theoretical and
-          unreliable. RWD always comes down to three techniques that all work in conjunction and they are Fluid Images, Fluid Grids, Media Queries.</p>
-      </article>
-    </main>
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+          <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <span class="glyphicons glyphicons-theater"></span>
+         <a class="navbar-brand" href="#">PORTFOLIO</a>
+       </div>
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="write-up.html">Write-up</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
     <h2>Contact Form</h2>
-    <h3>Please fill in the form below</h3>
-    <form class="form">
-      <fieldset>
-        <legend>Personal Information</legend>
-        <label>First Name:</label>
-        <input type="text" name="fname" value="" required="">
-        <br><br>
-        <label>Last Name:</label>
-        <input type="text" name="lname" value="" required="">
-        <br><br>
-        <label>Your Location:</label>
-        <input type="text" name="location" value="">
-        <br><br>
+    <h3>Please fill in the form below and submit to get in touch with me!</h3>
+    <form>
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" class="form-control" id="fullname">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="form-group">
         <label>Male
         <input type="radio" name="male" value="">
         </label>
         <label>Female
         <input type="radio" name="female" value="">
         </label>
-        <br><br>
-        <label>Year of Birth</label>
-      <select name="birth-year" id="birth-year">
+      </div>
+      <div class="form-group">
+      <label for="yob">Year of Birth:</label>
+      <select class="form-control" name="dob" id="dob">
         <option value="">choose</option>
         <option value="2001-2010">2001-2010</option>
         <option value="1991-2000">1991-2000</option>
@@ -62,30 +66,18 @@
         <option value="1971-1980">1971-1980</option>
         <option value="1960-1970">1960-1970</option>
       </select>
-      <br><br>
-      <label>Comment:</label>
-        <textarea id="msg" name="user_message"></textarea>
-      </fieldset>
-      <br><br>
-
-      <fieldset>
-        <legend>Business Information</legend>
-        <label>Business Name:</label>
-        <input type="text" name="bname" value="" required="">
-        <br>
-        <label>Number of Employees</label><br>
-        <label>10</label><input type="range" name="lname" value="10"><label>100</label>
-        <br>
-        <label>Year Established:</label>
-        <input type="text" name="establishment" value="">
-        <br>
-
-      </fieldset>
-      <br>
-      <input type="submit" name="submit" value="Submit">
+      </div>
+      <div class="form-group">
+        <label>Message:</label>
+          <textarea class="form-control" id="msg" name="user_message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
     </form>
-    <footer class="footer"><br>
-      <em>copyright my-projects @ 2017</em>
+    </div>
+
+    <footer>
+      <strong>2017 - UWPCE - Programs</strong>
     </footer>
+
   </body>
 </html>
