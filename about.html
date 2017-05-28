@@ -1,39 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles/first-stylesheet.css">
-    <link rel="stylesheet" href="styles/fonts.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abel"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cedarville+Cursive"/>
-    <script src="https://use.fontawesome.com/2be6246a47.js"></script>
-    <title>ABOUT</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABOUT</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
     <body>
-      <header class="header">
-        <h1 id="main-heading">PortFolio</h1>
-        <nav class="navbar">
-          <a href="index.html">HOME</a>
-          <a href="about.html">ABOUT</a>
-          <a href="contact.html">CONTACT</a>
-        </nav>
-      </header>
-      <aside class="aside_about">
-        <strong><a href="index.html">Main Projects</a></strong>
-      </aside>
-      <article class="article">
-        <h2>About HPO</h2>
-        <p>HPO stands for Henry Peter Otto, a student of HTML5 100 B Sp 17: HTML5 And CSS3 Foundations 2017 which Mr jeremy Flores is the main Instructor. <br>
-          Mr Flores is a professional in Web Development, you can find His Github Projects <a href="https://github.com/jnf" target="_blank">here</a><br><br>
-          In this first part of the course, we focused mainly on the foundations or basics of HTML5 and CSS3 but will dig in more details later. By attending, <br>
-          I found that majority of students are interested and expecting JavaScript which is a more fun programming language/script.
-          Unfortunately the basics will be offered on later classes.</p>
-        <p><a href="index.html">Here's</a> my projects so far</p>
-        <blockquote class="transition">HTML5, CSS3 & JavaScript are the Trios in Front End Web Development</blockquote>
-      </article>
-      <footer class="footer"><br>
-        <em>copyright my-projects @ 2017</em>
+
+      <!-- Navbar -->
+
+            <nav class="navbar navbar-inverse navbar-static-top">
+              <div class="container">
+                  <div class="navbar-header">
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                   <span class="sr-only">Toggle navigation</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                 </button>
+                 <span class="glyphicons glyphicons-theater"></span>
+                 <a class="navbar-brand" href="#">PORTFOLIO</a>
+               </div>
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                 <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>About me</h2>
+            <p>My Name is <strong>Henry</strong>, my middle name is <strong>Peter</strong> and my last name is <strong>Otto</strong>. I am a professional and
+              continuing student of HTML5, CSS3 and Responsive Design for Web Developers which <strong>Jeremy Flores</strong> and <strong>Cheri Marie Allen</strong> are the main Instructors.</p>
+            <p>They are professionals in Web Development and Design.
+              You can find Jeremy's Github Projects <a href="https://github.com/jnf" target="_blank">here</a> and
+              Cheri's Github Projects <a href="https://github.com/cherimarie" target="_blank">here</a>
+            <p>In the first part of the program, we focused mainly on the foundations or basics of HTML5 and CSS3. The second part of the program, we concentrated
+                on the basics of JavaScript and Responsive Design. <a href="https://henryotto.github.io/html200-ecomm-spr17/">Customizing an ecommerce website</a> and applying different methods of JS and responsive designs
+                that will allows the site to be viewed properly using different screen resolutions. Using different methods of JavaScript, the main idea was to make
+                the site interactive by allowing a cart to record a user's choice. Upon attending, I found that majority of students were interested in JavaScript which is a more fun programming language/script
+                which I later found out that it was a bit more trickier than I thought, maybe because I haven't coded in a programming language like this before.
+            </p>
+            <p><a href="index.html">Here's</a> my projects so far</p>
+            <blockquote class="transition">HTML5, CSS3 & JS are the Trios in Front End Web Development</blockquote>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <strong>2017 - UWPCE - Programs</strong>
       </footer>
   </body>
 </html>
