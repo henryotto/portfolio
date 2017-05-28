@@ -33,6 +33,17 @@ footer {
   padding: 1em;
 }
 
+blockquote {
+  background: #9c9c63;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 1em;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Century Gothic', serif;
+  font-size: 2em;
+}
+
 .custom-links:hover {
   text-decoration: none;
   font-weight: bold;
@@ -106,4 +117,20 @@ footer {
 
 .top-buffer {
   margin-top: 20px;
+}
+
+.transition {
+    border-width: 3px;
+    display: block;
+    width: 450px;
+    height: 350px;
+    background-color: #9c9c63;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.transition:hover {
+    background-color: #2E2F31;
+    width: 600px;
+    height: 150px;
 }
