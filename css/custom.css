@@ -44,6 +44,10 @@ blockquote {
   font-size: 2em;
 }
 
+form {
+  color: #000;
+}
+
 .custom-li {
   color: 	#2F4F4F;
   padding: 1em;
