@@ -12,7 +12,7 @@ h1 {
 	font-weight: bold;
 }
 
-h2 {
+h2, h3 {
   font-weight: bold;
   color: #1f1f14;
 }
