@@ -14,7 +14,7 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   </head>
 
-  <body>
+  <body onload='document.form1.text1.focus()'>
     <nav class="navbar navbar-inverse navbar-static-top">
       <div class="container">
           <div class="navbar-header">
@@ -41,14 +41,14 @@
   <div class="container">
     <h2>Contact Form</h2>
     <h3>Please fill in the form below and submit to get in touch with me!</h3>
-    <form>
+    <form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbwH1VTU1uhaQr7WY_s0rXD0tTBJU5Hso8Dq0RydEgZE7PTXCTrv/exec">
       <div class="form-group">
         <label for="name">Full Name</label>
-        <input type="text" class="form-control" id="fullname">
+        <input type="text" class="form-control">
       </div>
       <div class="form-group">
         <label for="email">Email address:</label>
-        <input type="email" class="form-control" id="email">
+        <input type="email" class="form-control">
       </div>
       <div class="form-group">
         <label>Male
@@ -91,3 +91,18 @@
 
   </body>
 </html>
+
+<!--
+<body onload='document.form1.text1.focus()'>
+<div class="mail">
+<h2>Input an email and Submit</h2>
+<form name="form1" action="#">
+<ul>
+<li><input type='text' name='text1'/></li>
+<li>&nbsp;</li>
+<li class="submit"><input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)"/></li>
+<li>&nbsp;</li>
+</ul>
+</form>
+</div>
+-->
